@@ -1,31 +1,32 @@
-package main
+package single_list_test
 
 import (
-	. "DataStructuresAndAlgorithms/SingleLink"
+	"DataStructuresAndAlgorithms/SingleLink"
 	"fmt"
+	"testing"
 )
 
-func main() {
+func TestSingleList(t *testing.T) {
 	//初始化链表
-	list := NewLinkList()
+	list := SingleLink.NewLinkList()
 	//构造一个节点
-	node1 := NewSingleNode(1)
+	node1 := SingleLink.NewSingleNode(1)
 	//将这个节点插入
 	//list.InsertNodeFront(node1)
 	list.InsertNodeBack(node1)
 	fmt.Println(list)
 
-	node2 := NewSingleNode(2)
+	node2 := SingleLink.NewSingleNode(2)
 	//list.InsertNodeFront(node2)
 	list.InsertNodeBack(node2)
 	fmt.Println(list)
 
-	node3 := NewSingleNode(3)
+	node3 := SingleLink.NewSingleNode(3)
 	//list.InsertNodeFront(node3)
 	list.InsertNodeBack(node3)
 	fmt.Println(list)
 
-	node4 := NewSingleNode(4)
+	node4 := SingleLink.NewSingleNode(4)
 	//前插
 	//list.InsertNodeFrontValue(2, node4)
 
@@ -49,11 +50,10 @@ func main() {
 	//P := RecursiveReverseList(list.GetHead().PNext)
 
 	//递归反转链表的前N个节点
-	p := RecursiveReverseNNode(list.GetHead().PNext, 2)
+	p := SingleLink.RecursiveReverseNNode(list.GetHead().PNext, 2)
 	fmt.Println(getString(p))
 }
-
-func getString(node *Node) string {
+func getString(node *SingleLink.Node) string {
 	var listString string
 	for node != nil {
 		listString += fmt.Sprintf("%v-->", node.Value)

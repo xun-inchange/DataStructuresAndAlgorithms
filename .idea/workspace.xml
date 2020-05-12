@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a78da938-76ac-4b0c-81d9-75065beae312" name="Default Changelist" comment="" />
+    <list default="true" id="a78da938-76ac-4b0c-81d9-75065beae312" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SingleLink/single_list_test/single_list_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/BinaryTree/binary_tree_test/binary_tree_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/BinaryTree/BinaryTree.go" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/BinaryTree/BinaryTree.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +50,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GolandProject\src\DataStructuresAndAlgorithms\BinaryTrees\Tree" />
+      <recent name="D:\GolandProject\src\DataStructuresAndAlgorithms\Test" />
+      <recent name="D:\GolandProject\src\DataStructuresAndAlgorithms" />
       <recent name="D:\GolandProject\src\DataStructuresAndAlgorithms\SingleLink" />
+      <recent name="D:\GolandProject\src\DataStructuresAndAlgorithms\Tree\BinaryTree" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -59,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Test.TestBinaryTree in DataStructuresAndAlgorithms/Tree/BinaryTree/binary_tree_test">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="DataStructuresAndAlgorithms" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -69,8 +79,32 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="TestBinaryTree in DataStructuresAndAlgorithms/Tree/BinaryTree/binary_tree_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="DataStructuresAndAlgorithms" />
+      <working_directory value="$PROJECT_DIR$/Tree/BinaryTree/binary_tree_test" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="DataStructuresAndAlgorithms/Tree/BinaryTree/binary_tree_test" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestBinaryTree$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestList in DataStructuresAndAlgorithms/SingleLink/single_link_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="DataStructuresAndAlgorithms" />
+      <working_directory value="$PROJECT_DIR$/SingleLink/single_link_test" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="DataStructuresAndAlgorithms/SingleLink/single_link_test" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestList$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestBinaryTree in DataStructuresAndAlgorithms/Tree/BinaryTree/binary_tree_test" />
+        <item itemvalue="Go Test.TestList in DataStructuresAndAlgorithms/SingleLink/single_link_test" />
         <item itemvalue="Go Build.go build main.go" />
       </list>
     </recent_temporary>
@@ -83,7 +117,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
