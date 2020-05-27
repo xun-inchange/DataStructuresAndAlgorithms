@@ -2,6 +2,7 @@ package binary_tree_test
 
 import (
 	"DataStructuresAndAlgorithms/Tree/BinaryTree"
+	"fmt"
 	"testing"
 )
 
@@ -11,11 +12,14 @@ func TestBinaryTree(t *testing.T) {
 	for _, num := range nums {
 		bt.Add(num)
 	}
+	bt.RemoveNode(4)
 	//前序遍历
+	fmt.Println("---------------前序遍历----------------------")
 	bt.PreOrder()
-	//中序遍历
-	bt.InOrder()
-	//后序遍历
-	bt.PostOrder()
-
+	//fmt.Println("---------------中序遍历----------------------")
+	////中序遍历
+	//bt.InOrder()
+	//fmt.Println("---------------后序遍历----------------------")
+	////后序遍历
+	//bt.PostOrder()
 }

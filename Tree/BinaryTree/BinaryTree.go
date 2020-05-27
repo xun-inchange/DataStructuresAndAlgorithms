@@ -150,3 +150,76 @@ func (bt *BinaryTree) postOrder(node *Node) {
 	bt.postOrder(node.right)
 	fmt.Println(node.data)
 }
+
+//删除二叉树中的最大值和最小值
+func (bt *BinaryTree) RemoveMax() {
+	bt.Root = bt.removeMax(bt.Root)
+}
+func (bt *BinaryTree) removeMax(node *Node) *Node {
+	if node.right == nil {
+		leftNode := node.left
+		bt.Size--
+		return leftNode
+	}
+	node.right = bt.removeMax(node.right)
+	return node
+}
+
+func (bt *BinaryTree) RemoveMin() {
+	bt.Root = bt.removeMin(bt.Root)
+}
+
+func (bt *BinaryTree) removeMin(node *Node) *Node {
+	if node.left == nil {
+		rightNode := node.right
+		bt.Size--
+		return rightNode
+	}
+	node.left = bt.removeMin(node.left)
+	return node
+}
+
+//任意删除,指定删除节点中的某个数据
+func (bt *BinaryTree) RemoveNode(data int) {
+	bt.Root = bt.removeNode(bt.Root, data)
+}
+
+func (bt *BinaryTree) removeNode(node *Node, data int) *Node {
+	if node == nil {
+		return nil
+	}
+	if data < node.data {
+		node.left = bt.removeNode(node.left, data)
+		return node
+	} else if data > node.data {
+		node.right = bt.removeNode(node.right, data)
+		return node
+	} else {
+		//分情况进行讨论
+		//1.左子树为nil时
+		if node.left == nil {
+			rightNode := node.right
+			node.right = nil
+			bt.Size--
+			return rightNode
+		} else if node.right == nil {
+			//2.右子树为空的时候
+			leftNode := node.left
+			node.left = nil
+			bt.Size--
+			return leftNode
+		}
+		//最后一种情况是左，右子树都不为空的时候
+		//先找一个比当前节点大的节点，从右子树找一个最小的节点来代替现在的节点
+		tempNode := bt.getMinimum(node.right)
+		//然后将目标节点的左右子树接起来
+		//这里顺序一定要不能弄错了
+		tempNode.right = bt.removeMin(node.right)
+		tempNode.left = node.left
+		//然后将目标节点指向的左右子树全部删除掉
+		node.left = nil
+		node.right = nil
+		bt.Size--
+		return tempNode
+	}
+}

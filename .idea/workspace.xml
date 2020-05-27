@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a78da938-76ac-4b0c-81d9-75065beae312" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SingleLink/single_list_test/single_list_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/BinaryTree/binary_tree_test/binary_tree_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/ArrayList.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/ArrayListIterator.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/array_test/array_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/readme_array.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Tree/InitTree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Tree/isSymmetric.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/Tree/tree_test/tree_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/InsertSort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/bubbleSort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/selectSort.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tree/BinaryTree/BinaryTree.go" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/BinaryTree/BinaryTree.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/BinaryTree/binary_tree_test/binary_tree_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/BinaryTree/binary_tree_test/binary_tree_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +47,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
@@ -69,43 +78,63 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestBinaryTree in DataStructuresAndAlgorithms/Tree/BinaryTree/binary_tree_test">
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestArray in DataStructuresAndAlgorithms/Array/array_test (1)">
+    <configuration name="go build DataStructuresAndAlgorithms/Sort (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="DataStructuresAndAlgorithms" />
-      <working_directory value="$PROJECT_DIR$/" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/main.go" />
-      <package value="DataStructuresAndAlgorithms" />
+      <filePath value="$PROJECT_DIR$/Sort/bubbleSort.go" />
+      <package value="DataStructuresAndAlgorithms/Sort" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="TestBinaryTree in DataStructuresAndAlgorithms/Tree/BinaryTree/binary_tree_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build DataStructuresAndAlgorithms/Sort (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="DataStructuresAndAlgorithms" />
-      <working_directory value="$PROJECT_DIR$/Tree/BinaryTree/binary_tree_test" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="DataStructuresAndAlgorithms/Tree/BinaryTree/binary_tree_test" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Sort/InsertSort.go" />
+      <package value="DataStructuresAndAlgorithms/Sort" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestBinaryTree$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestList in DataStructuresAndAlgorithms/SingleLink/single_link_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build DataStructuresAndAlgorithms/Sort" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="DataStructuresAndAlgorithms" />
-      <working_directory value="$PROJECT_DIR$/SingleLink/single_link_test" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Sort/selectSort.go" />
+      <package value="DataStructuresAndAlgorithms/Sort" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestArray in DataStructuresAndAlgorithms/Array/array_test (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="DataStructuresAndAlgorithms" />
+      <working_directory value="$PROJECT_DIR$/Array/array_test" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="DataStructuresAndAlgorithms/SingleLink/single_link_test" />
+      <package value="DataStructuresAndAlgorithms/Array/array_test" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestList$" />
+      <pattern value="^TestArray$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestArray in DataStructuresAndAlgorithms/Array/array_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="DataStructuresAndAlgorithms" />
+      <working_directory value="$PROJECT_DIR$/Array/array_test" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="DataStructuresAndAlgorithms/Array/array_test" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestArray$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestBinaryTree in DataStructuresAndAlgorithms/Tree/BinaryTree/binary_tree_test" />
-        <item itemvalue="Go Test.TestList in DataStructuresAndAlgorithms/SingleLink/single_link_test" />
-        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Test.TestArray in DataStructuresAndAlgorithms/Array/array_test (1)" />
+        <item itemvalue="Go Test.TestArray in DataStructuresAndAlgorithms/Array/array_test" />
+        <item itemvalue="Go Build.go build DataStructuresAndAlgorithms/Sort (2)" />
+        <item itemvalue="Go Build.go build DataStructuresAndAlgorithms/Sort (1)" />
+        <item itemvalue="Go Build.go build DataStructuresAndAlgorithms/Sort" />
       </list>
     </recent_temporary>
   </component>
@@ -124,6 +153,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="二叉树的实现加前中后序遍历" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉树的实现加前中后序遍历" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
