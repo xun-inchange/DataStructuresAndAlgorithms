@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a78da938-76ac-4b0c-81d9-75065beae312" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Array/ArrayList.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/ArrayListIterator.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/array_test/array_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/readme_array.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Tree/InitTree.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Tree/isSymmetric.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/Tree/tree_test/tree_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sort/InsertSort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sort/bubbleSort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sort/selectSort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/File/file_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/File/reademe_file.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/File/traverse_file.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/BinaryTree/BinaryTree.go" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/BinaryTree/BinaryTree.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/BinaryTree/binary_tree_test/binary_tree_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/BinaryTree/binary_tree_test/binary_tree_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestArray in DataStructuresAndAlgorithms/Array/array_test (1)">
+  <component name="RunManager" selected="Go Test.TestTraverseFile in DataStructuresAndAlgorithms/File">
     <configuration name="go build DataStructuresAndAlgorithms/Sort (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="DataStructuresAndAlgorithms" />
       <working_directory value="$PROJECT_DIR$" />
@@ -93,15 +84,6 @@
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/Sort/InsertSort.go" />
-      <package value="DataStructuresAndAlgorithms/Sort" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build DataStructuresAndAlgorithms/Sort" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="DataStructuresAndAlgorithms" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Sort/selectSort.go" />
       <package value="DataStructuresAndAlgorithms/Sort" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -128,13 +110,24 @@
       <pattern value="^TestArray$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestTraverseFile in DataStructuresAndAlgorithms/File" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="DataStructuresAndAlgorithms" />
+      <working_directory value="$PROJECT_DIR$/File" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="DataStructuresAndAlgorithms/File" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestTraverseFile$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestTraverseFile in DataStructuresAndAlgorithms/File" />
         <item itemvalue="Go Test.TestArray in DataStructuresAndAlgorithms/Array/array_test (1)" />
         <item itemvalue="Go Test.TestArray in DataStructuresAndAlgorithms/Array/array_test" />
         <item itemvalue="Go Build.go build DataStructuresAndAlgorithms/Sort (2)" />
         <item itemvalue="Go Build.go build DataStructuresAndAlgorithms/Sort (1)" />
-        <item itemvalue="Go Build.go build DataStructuresAndAlgorithms/Sort" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +149,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="二叉树的实现加前中后序遍历" />
-    <option name="LAST_COMMIT_MESSAGE" value="二叉树的实现加前中后序遍历" />
+    <MESSAGE value="数组实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="数组实现" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
