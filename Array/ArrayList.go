@@ -20,6 +20,7 @@ type List interface {
 	Clear()                                     //清空数组
 	String() string                             //返回字符串
 	checkIsFull()                               //开辟内存
+	NewListIterator() Iterator
 }
 
 //实例化ArrayList

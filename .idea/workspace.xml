@@ -2,10 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a78da938-76ac-4b0c-81d9-75065beae312" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/File/file_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/File/reademe_file.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/File/traverse_file.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/ArrayIteratorStack.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/ArrayListStack.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/array_test/array_iterator_stack_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/array_test/array_list_stack_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/array_test/iterator_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Queue/queue.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Queue/queue_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Queue/readme_queue.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Search/map模型搜索.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Search/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Search/数组结构体模型搜索.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StackArray/readme_stack.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StackArray/stack_ recursive.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StackArray/stack_array.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StackArray/stack_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/ArrayList.go" beforeDir="false" afterPath="$PROJECT_DIR$/Array/ArrayList.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/ArrayListIterator.go" beforeDir="false" afterPath="$PROJECT_DIR$/Array/ArrayListIterator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/File/traverse_file.go" beforeDir="false" afterPath="$PROJECT_DIR$/File/traverse_file.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +55,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="GO_FMT" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
@@ -46,6 +63,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
@@ -69,26 +87,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestTraverseFile in DataStructuresAndAlgorithms/File">
-    <configuration name="go build DataStructuresAndAlgorithms/Sort (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="DataStructuresAndAlgorithms" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Sort/bubbleSort.go" />
-      <package value="DataStructuresAndAlgorithms/Sort" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build DataStructuresAndAlgorithms/Sort (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="DataStructuresAndAlgorithms" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Sort/InsertSort.go" />
-      <package value="DataStructuresAndAlgorithms/Sort" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestArray in DataStructuresAndAlgorithms/Array/array_test (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestQueue in DataStructuresAndAlgorithms/Queue">
+    <configuration name="TestArrayIteratorStack in DataStructuresAndAlgorithms/Array/array_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="DataStructuresAndAlgorithms" />
       <working_directory value="$PROJECT_DIR$/Array/array_test" />
       <framework value="gotest" />
@@ -96,10 +96,10 @@
       <package value="DataStructuresAndAlgorithms/Array/array_test" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestArray$" />
+      <pattern value="^TestArrayIteratorStack$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestArray in DataStructuresAndAlgorithms/Array/array_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestArrayListStack in DataStructuresAndAlgorithms/Array/array_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="DataStructuresAndAlgorithms" />
       <working_directory value="$PROJECT_DIR$/Array/array_test" />
       <framework value="gotest" />
@@ -107,27 +107,49 @@
       <package value="DataStructuresAndAlgorithms/Array/array_test" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestArray$" />
+      <pattern value="^TestArrayListStack$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestTraverseFile in DataStructuresAndAlgorithms/File" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestQueue in DataStructuresAndAlgorithms/Queue" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="DataStructuresAndAlgorithms" />
-      <working_directory value="$PROJECT_DIR$/File" />
+      <working_directory value="$PROJECT_DIR$/Queue" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="DataStructuresAndAlgorithms/File" />
+      <package value="DataStructuresAndAlgorithms/Queue" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestTraverseFile$" />
+      <pattern value="^TestQueue$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestStack in DataStructuresAndAlgorithms/StackArray" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="DataStructuresAndAlgorithms" />
+      <working_directory value="$PROJECT_DIR$/StackArray" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="DataStructuresAndAlgorithms/StackArray" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestStack$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestStackRecursive in DataStructuresAndAlgorithms/StackArray" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="DataStructuresAndAlgorithms" />
+      <working_directory value="$PROJECT_DIR$/StackArray" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="DataStructuresAndAlgorithms/StackArray" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestStackRecursive$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestTraverseFile in DataStructuresAndAlgorithms/File" />
-        <item itemvalue="Go Test.TestArray in DataStructuresAndAlgorithms/Array/array_test (1)" />
-        <item itemvalue="Go Test.TestArray in DataStructuresAndAlgorithms/Array/array_test" />
-        <item itemvalue="Go Build.go build DataStructuresAndAlgorithms/Sort (2)" />
-        <item itemvalue="Go Build.go build DataStructuresAndAlgorithms/Sort (1)" />
+        <item itemvalue="Go Test.TestQueue in DataStructuresAndAlgorithms/Queue" />
+        <item itemvalue="Go Test.TestStackRecursive in DataStructuresAndAlgorithms/StackArray" />
+        <item itemvalue="Go Test.TestStack in DataStructuresAndAlgorithms/StackArray" />
+        <item itemvalue="Go Test.TestArrayIteratorStack in DataStructuresAndAlgorithms/Array/array_test" />
+        <item itemvalue="Go Test.TestArrayListStack in DataStructuresAndAlgorithms/Array/array_test" />
       </list>
     </recent_temporary>
   </component>
@@ -150,10 +172,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="二叉树的实现加前中后序遍历" />
     <MESSAGE value="数组实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="数组实现" />
+    <MESSAGE value="文件遍历" />
+    <option name="LAST_COMMIT_MESSAGE" value="文件遍历" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
     <proxy>https://goproxy.io,direct</proxy>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/StackArray/stack_ recursive.go</url>
+          <line>20</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

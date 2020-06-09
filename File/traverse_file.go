@@ -18,8 +18,8 @@ func getAllFiles(path string, files []string) ([]string, error) {
 	//遍历文件
 	for _, fi := range read {
 		if fi.IsDir() { //是否为文件夹
-			files = append(files, fi.Name())
 			fullDir := path + "\\" + fi.Name() //构造新的路径
+			files = append(files, fullDir)
 			files, _ = getAllFiles(fullDir, files)
 		}
 		//如果file是文件
