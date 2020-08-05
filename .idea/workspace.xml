@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a78da938-76ac-4b0c-81d9-75065beae312" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Sort/quick_sort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6/改良版快速排序.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build DataStructuresAndAlgorithms/Sort">
+  <component name="RunManager" selected="Go Build.go build DataStructuresAndAlgorithms/day6">
     <configuration name="go build DataStructuresAndAlgorithms/Sort" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="DataStructuresAndAlgorithms" />
       <working_directory value="$PROJECT_DIR$" />
@@ -79,15 +79,13 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="TestArrayIteratorStack in DataStructuresAndAlgorithms/Array/array_test" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build DataStructuresAndAlgorithms/day6" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="DataStructuresAndAlgorithms" />
-      <working_directory value="$PROJECT_DIR$/Array/array_test" />
-      <framework value="gotest" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="DataStructuresAndAlgorithms/Array/array_test" />
+      <filePath value="$PROJECT_DIR$/day6/改良版快速排序.go" />
+      <package value="DataStructuresAndAlgorithms/day6" />
       <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestArrayIteratorStack$" />
       <method v="2" />
     </configuration>
     <configuration name="TestQueue in DataStructuresAndAlgorithms/Queue" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -125,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build DataStructuresAndAlgorithms/day6" />
         <item itemvalue="Go Build.go build DataStructuresAndAlgorithms/Sort" />
         <item itemvalue="Go Test.TestQueue in DataStructuresAndAlgorithms/Queue" />
         <item itemvalue="Go Test.TestStackRecursive in DataStructuresAndAlgorithms/StackArray" />
         <item itemvalue="Go Test.TestStack in DataStructuresAndAlgorithms/StackArray" />
-        <item itemvalue="Go Test.TestArrayIteratorStack in DataStructuresAndAlgorithms/Array/array_test" />
       </list>
     </recent_temporary>
   </component>
